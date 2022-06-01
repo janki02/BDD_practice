@@ -10,7 +10,7 @@ import io.cucumber.junit.CucumberOptions;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-		features = {"C:\\Users\\Janki_project\\Practice\\BDD_practice\\src\\test\\java\\AppFeature\\LoginFeature.feature"},
+		features = {"src/test/resources/AppFeature"},
 		glue={"StepDefinitions"},
 		plugin = {"pretty"}
 		)
