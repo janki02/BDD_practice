@@ -10,8 +10,13 @@ import io.cucumber.junit.CucumberOptions;
 		features = {"src/test/resources/AppFeature/homepage.feature"}, 
 		 glue = {"StepDefinitions"},
 		 tags ="@All",
-		 plugin = {"pretty"}
-		)
+	
+              plugin = { "pretty"},
+              
+             
+              dryRun = false,
+          monochrome = true)
+		
 
 public class homepagetestRunner {
 	

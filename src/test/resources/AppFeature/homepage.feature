@@ -12,7 +12,7 @@ Scenario: homepage
     Then  user able to see desktop page
     
 @Regression
-Scenario: homepage
+Scenario: desktop  for tablet
     
     Given  user is on desktop page
     When  user select tablets 
@@ -21,7 +21,7 @@ Scenario: homepage
     Then user select the "Apple Tablet" and price is 150 USD
     
 @Prod
-Scenario: homepage
+Scenario: desktop for camera
     
     Given  user is on desktop page for camera
     When  user select camera

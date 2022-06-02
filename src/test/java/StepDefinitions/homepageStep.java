@@ -59,20 +59,21 @@ public class homepageStep {
 		System.out.println("step -10");
 	}
 
-	@When("user select camera")
-	public void user_select_camera() {
-		System.out.println("step -11");
-	}
+@When("user select camera")
+public void user_select_camera() {
+   
+}
 
-	@Then("user click camera buttan")
-	public void user_click_camera_buttan() {
-		System.out.println("step -12");
-	}
 
-	@Then("user able to see camera page")
-	public void user_able_to_see_camera_page() {
-		System.out.println("step -13");
-	}
 
+
+@Then("user click camera buttan")
+public void user_click_camera_buttan() {
+    
+}
+@Then("user able to see camera page")
+public void user_able_to_see_camera_page() {
+    
+}
 
 }
